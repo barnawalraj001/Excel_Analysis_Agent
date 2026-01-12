@@ -111,7 +111,7 @@ def execute_charts(df: pd.DataFrame, charts: list[ChartRequest]) -> list[dict]:
             results.append({
                 "type": chart.type,
                 "reason": chart.reason,
-                "image_base64": image_base64
+                "image_src": f"data:image/png;base64,{image_base64}"
             })
 
         except Exception as e:
