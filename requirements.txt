@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+pandas
+seaborn
+matplotlib
+openpyxl
+python-multipart
+openai
+pydantic-settings
+python-dotenv
+numpy
+pydantic
